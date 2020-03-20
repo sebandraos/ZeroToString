@@ -6,8 +6,8 @@ namespace ZeroToString
 {
     public class TinyDouble
     {
-        const double negativeValue = -1.1102230246251565E-16;
-        const double positiveValue = 1.1102230246251565E-16;
+        const double negativeValue = -1E-16;
+        const double positiveValue = 1E-16;
 
         /// <summary>Rounds a <c>double</c> <paramref name="value"/> to ensure that the same rounding is used consistently.</summary>
         /// <param name="value"></param>
